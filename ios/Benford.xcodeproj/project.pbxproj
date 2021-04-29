@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD55F77D2639AA7E005B2796 /* normalImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD55F77C2639AA7E005B2796 /* normalImage.jpg */; };
+		CDB828A92637E37B00F0A0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828A82637E37B00F0A0CF /* AppDelegate.swift */; };
+		CDB828AB2637E37B00F0A0CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828AA2637E37B00F0A0CF /* SceneDelegate.swift */; };
+		CDB828AD2637E37B00F0A0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828AC2637E37B00F0A0CF /* ViewController.swift */; };
+		CDB828B02637E37B00F0A0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB828AE2637E37B00F0A0CF /* Main.storyboard */; };
+		CDB828B22637E37C00F0A0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB828B12637E37C00F0A0CF /* Assets.xcassets */; };
+		CDB828B52637E37C00F0A0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB828B32637E37C00F0A0CF /* LaunchScreen.storyboard */; };
+		CDB828C02637E37C00F0A0CF /* BenfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828BF2637E37C00F0A0CF /* BenfordTests.swift */; };
+		CDB828E02637E53300F0A0CF /* AddImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */; };
+		CDB828E52637E5F000F0A0CF /* AddImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */; };
+		CDB828EE2637EA1600F0A0CF /* Benford.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828E92637EA0700F0A0CF /* Benford.swift */; };
+		CDB8291226384C2F00F0A0CF /* blankImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB8291126384C2F00F0A0CF /* blankImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB828BC2637E37C00F0A0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB8289D2637E37A00F0A0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB828A42637E37A00F0A0CF;
+			remoteInfo = Benford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD55F75E2639664C005B2796 /* BenfordUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenfordUnitTests.swift; sourceTree = "<group>"; };
+		CD55F7602639664C005B2796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD55F77C2639AA7E005B2796 /* normalImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normalImage.jpg; sourceTree = "<group>"; };
+		CDB828A52637E37B00F0A0CF /* Benford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benford.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB828A82637E37B00F0A0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDB828AA2637E37B00F0A0CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDB828AC2637E37B00F0A0CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB828AF2637E37B00F0A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB828B12637E37C00F0A0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB828B42637E37C00F0A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB828B62637E37C00F0A0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB828BB2637E37C00F0A0CF /* BenfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB828BF2637E37C00F0A0CF /* BenfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenfordTests.swift; sourceTree = "<group>"; };
+		CDB828C12637E37C00F0A0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewController.swift; sourceTree = "<group>"; };
+		CDB828E92637EA0700F0A0CF /* Benford.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benford.swift; sourceTree = "<group>"; };
+		CDB8291126384C2F00F0A0CF /* blankImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blankImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB828A22637E37A00F0A0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB828B82637E37C00F0A0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD55F75D2639664C005B2796 /* BenfordUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD55F75E2639664C005B2796 /* BenfordUnitTests.swift */,
+				CD55F7602639664C005B2796 /* Info.plist */,
+			);
+			path = BenfordUnitTests;
+			sourceTree = "<group>";
+		};
+		CDB8289C2637E37A00F0A0CF = {
+			isa = PBXGroup;
+			children = (
+				CDB828A72637E37B00F0A0CF /* Benford */,
+				CDB828BE2637E37C00F0A0CF /* BenfordTests */,
+				CD55F75D2639664C005B2796 /* BenfordUnitTests */,
+				CDB828A62637E37B00F0A0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB828A62637E37B00F0A0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB828A52637E37B00F0A0CF /* Benford.app */,
+				CDB828BB2637E37C00F0A0CF /* BenfordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB828A72637E37B00F0A0CF /* Benford */ = {
+			isa = PBXGroup;
+			children = (
+				CDB828E92637EA0700F0A0CF /* Benford.swift */,
+				CDB828AC2637E37B00F0A0CF /* ViewController.swift */,
+				CDB828AE2637E37B00F0A0CF /* Main.storyboard */,
+				CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */,
+				CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */,
+				CDB828DB2637E3B300F0A0CF /* Supporting Files */,
+				CDB828B62637E37C00F0A0CF /* Info.plist */,
+			);
+			path = Benford;
+			sourceTree = "<group>";
+		};
+		CDB828BE2637E37C00F0A0CF /* BenfordTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8291126384C2F00F0A0CF /* blankImage.jpg */,
+				CD55F77C2639AA7E005B2796 /* normalImage.jpg */,
+				CDB828BF2637E37C00F0A0CF /* BenfordTests.swift */,
+				CDB828C12637E37C00F0A0CF /* Info.plist */,
+			);
+			path = BenfordTests;
+			sourceTree = "<group>";
+		};
+		CDB828DB2637E3B300F0A0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB828B32637E37C00F0A0CF /* LaunchScreen.storyboard */,
+				CDB828A82637E37B00F0A0CF /* AppDelegate.swift */,
+				CDB828AA2637E37B00F0A0CF /* SceneDelegate.swift */,
+				CDB828B12637E37C00F0A0CF /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB828A42637E37A00F0A0CF /* Benford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB828CF2637E37C00F0A0CF /* Build configuration list for PBXNativeTarget "Benford" */;
+			buildPhases = (
+				CDB828A12637E37A00F0A0CF /* Sources */,
+				CDB828A22637E37A00F0A0CF /* Frameworks */,
+				CDB828A32637E37A00F0A0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Benford;
+			productName = Benford;
+			productReference = CDB828A52637E37B00F0A0CF /* Benford.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB828BA2637E37C00F0A0CF /* BenfordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB828D22637E37C00F0A0CF /* Build configuration list for PBXNativeTarget "BenfordTests" */;
+			buildPhases = (
+				CDB828B72637E37C00F0A0CF /* Sources */,
+				CDB828B82637E37C00F0A0CF /* Frameworks */,
+				CDB828B92637E37C00F0A0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB828BD2637E37C00F0A0CF /* PBXTargetDependency */,
+			);
+			name = BenfordTests;
+			productName = BenfordTests;
+			productReference = CDB828BB2637E37C00F0A0CF /* BenfordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB8289D2637E37A00F0A0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CDB828A42637E37A00F0A0CF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CDB828BA2637E37C00F0A0CF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CDB828A42637E37A00F0A0CF;
+					};
+				};
+			};
+			buildConfigurationList = CDB828A02637E37A00F0A0CF /* Build configuration list for PBXProject "Benford" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB8289C2637E37A00F0A0CF;
+			productRefGroup = CDB828A62637E37B00F0A0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB828A42637E37A00F0A0CF /* Benford */,
+				CDB828BA2637E37C00F0A0CF /* BenfordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB828A32637E37A00F0A0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB828B52637E37C00F0A0CF /* LaunchScreen.storyboard in Resources */,
+				CDB828B22637E37C00F0A0CF /* Assets.xcassets in Resources */,
+				CDB828B02637E37B00F0A0CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB828B92637E37C00F0A0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD55F77D2639AA7E005B2796 /* normalImage.jpg in Resources */,
+				CDB8291226384C2F00F0A0CF /* blankImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB828A12637E37A00F0A0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB828E02637E53300F0A0CF /* AddImageCollectionViewCell.swift in Sources */,
+				CDB828AD2637E37B00F0A0CF /* ViewController.swift in Sources */,
+				CDB828A92637E37B00F0A0CF /* AppDelegate.swift in Sources */,
+				CDB828AB2637E37B00F0A0CF /* SceneDelegate.swift in Sources */,
+				CDB828EE2637EA1600F0A0CF /* Benford.swift in Sources */,
+				CDB828E52637E5F000F0A0CF /* AddImageCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB828B72637E37C00F0A0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB828C02637E37C00F0A0CF /* BenfordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB828BD2637E37C00F0A0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB828A42637E37A00F0A0CF /* Benford */;
+			targetProxy = CDB828BC2637E37C00F0A0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB828AE2637E37B00F0A0CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB828AF2637E37B00F0A0CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB828B32637E37C00F0A0CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB828B42637E37C00F0A0CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB828CD2637E37C00F0A0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB828CE2637E37C00F0A0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB828D02637E37C00F0A0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SDP399666;
+				INFOPLIST_FILE = Benford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Learning.Benford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB828D12637E37C00F0A0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SDP399666;
+				INFOPLIST_FILE = Benford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Learning.Benford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDB828D32637E37C00F0A0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SDP399666;
+				INFOPLIST_FILE = BenfordTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Learning.BenfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benford.app/Benford";
+			};
+			name = Debug;
+		};
+		CDB828D42637E37C00F0A0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SDP399666;
+				INFOPLIST_FILE = BenfordTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Learning.BenfordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Benford.app/Benford";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB828A02637E37A00F0A0CF /* Build configuration list for PBXProject "Benford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB828CD2637E37C00F0A0CF /* Debug */,
+				CDB828CE2637E37C00F0A0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB828CF2637E37C00F0A0CF /* Build configuration list for PBXNativeTarget "Benford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB828D02637E37C00F0A0CF /* Debug */,
+				CDB828D12637E37C00F0A0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB828D22637E37C00F0A0CF /* Build configuration list for PBXNativeTarget "BenfordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB828D32637E37C00F0A0CF /* Debug */,
+				CDB828D42637E37C00F0A0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB8289D2637E37A00F0A0CF /* Project object */;
+}
