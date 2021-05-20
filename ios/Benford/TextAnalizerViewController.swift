@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TextAnalizerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Text Analisis"
     }
 
     @IBOutlet weak var resultLabel: UILabel!

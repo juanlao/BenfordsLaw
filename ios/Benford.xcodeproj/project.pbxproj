@@ -10,15 +10,15 @@
 		CD55F77D2639AA7E005B2796 /* normalImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD55F77C2639AA7E005B2796 /* normalImage.jpg */; };
 		CDB828A92637E37B00F0A0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828A82637E37B00F0A0CF /* AppDelegate.swift */; };
 		CDB828AB2637E37B00F0A0CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828AA2637E37B00F0A0CF /* SceneDelegate.swift */; };
-		CDB828AD2637E37B00F0A0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828AC2637E37B00F0A0CF /* ViewController.swift */; };
+		CDB828AD2637E37B00F0A0CF /* TextAnalizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828AC2637E37B00F0A0CF /* TextAnalizerViewController.swift */; };
 		CDB828B02637E37B00F0A0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB828AE2637E37B00F0A0CF /* Main.storyboard */; };
 		CDB828B22637E37C00F0A0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB828B12637E37C00F0A0CF /* Assets.xcassets */; };
 		CDB828B52637E37C00F0A0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB828B32637E37C00F0A0CF /* LaunchScreen.storyboard */; };
 		CDB828C02637E37C00F0A0CF /* BenfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828BF2637E37C00F0A0CF /* BenfordTests.swift */; };
-		CDB828E02637E53300F0A0CF /* AddImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */; };
-		CDB828E52637E5F000F0A0CF /* AddImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */; };
 		CDB828EE2637EA1600F0A0CF /* Benford.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB828E92637EA0700F0A0CF /* Benford.swift */; };
 		CDB8291226384C2F00F0A0CF /* blankImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB8291126384C2F00F0A0CF /* blankImage.jpg */; };
+		CDBE343C265676AC0003EBCE /* ImageAnalizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */; };
+		CDBE343E265677830003EBCE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE343D265677830003EBCE /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		CDB828A52637E37B00F0A0CF /* Benford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benford.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB828A82637E37B00F0A0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB828AA2637E37B00F0A0CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDB828AC2637E37B00F0A0CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB828AC2637E37B00F0A0CF /* TextAnalizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalizerViewController.swift; sourceTree = "<group>"; };
 		CDB828AF2637E37B00F0A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB828B12637E37C00F0A0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB828B42637E37C00F0A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,10 +46,10 @@
 		CDB828BB2637E37C00F0A0CF /* BenfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB828BF2637E37C00F0A0CF /* BenfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenfordTests.swift; sourceTree = "<group>"; };
 		CDB828C12637E37C00F0A0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewCell.swift; sourceTree = "<group>"; };
-		CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewController.swift; sourceTree = "<group>"; };
 		CDB828E92637EA0700F0A0CF /* Benford.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benford.swift; sourceTree = "<group>"; };
 		CDB8291126384C2F00F0A0CF /* blankImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blankImage.jpg; sourceTree = "<group>"; };
+		CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalizerViewController.swift; sourceTree = "<group>"; };
+		CDBE343D265677830003EBCE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				CDB828E92637EA0700F0A0CF /* Benford.swift */,
-				CDB828AC2637E37B00F0A0CF /* ViewController.swift */,
+				CDB828AC2637E37B00F0A0CF /* TextAnalizerViewController.swift */,
 				CDB828AE2637E37B00F0A0CF /* Main.storyboard */,
-				CDB828DF2637E53300F0A0CF /* AddImageCollectionViewCell.swift */,
-				CDB828E42637E5F000F0A0CF /* AddImageCollectionViewController.swift */,
+				CDBE343D265677830003EBCE /* HomeViewController.swift */,
+				CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */,
 				CDB828DB2637E3B300F0A0CF /* Supporting Files */,
 				CDB828B62637E37C00F0A0CF /* Info.plist */,
 			);
@@ -236,12 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB828E02637E53300F0A0CF /* AddImageCollectionViewCell.swift in Sources */,
-				CDB828AD2637E37B00F0A0CF /* ViewController.swift in Sources */,
+				CDB828AD2637E37B00F0A0CF /* TextAnalizerViewController.swift in Sources */,
 				CDB828A92637E37B00F0A0CF /* AppDelegate.swift in Sources */,
 				CDB828AB2637E37B00F0A0CF /* SceneDelegate.swift in Sources */,
+				CDBE343C265676AC0003EBCE /* ImageAnalizerViewController.swift in Sources */,
 				CDB828EE2637EA1600F0A0CF /* Benford.swift in Sources */,
-				CDB828E52637E5F000F0A0CF /* AddImageCollectionViewController.swift in Sources */,
+				CDBE343E265677830003EBCE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
