@@ -19,6 +19,7 @@
 		CDB8291226384C2F00F0A0CF /* blankImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB8291126384C2F00F0A0CF /* blankImage.jpg */; };
 		CDBE343C265676AC0003EBCE /* ImageAnalizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */; };
 		CDBE343E265677830003EBCE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE343D265677830003EBCE /* HomeViewController.swift */; };
+		CDC1F81726569B6F001BAA69 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F81626569B6F001BAA69 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CDB8291126384C2F00F0A0CF /* blankImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blankImage.jpg; sourceTree = "<group>"; };
 		CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalizerViewController.swift; sourceTree = "<group>"; };
 		CDBE343D265677830003EBCE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDC1F81626569B6F001BAA69 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CDB828AE2637E37B00F0A0CF /* Main.storyboard */,
 				CDBE343D265677830003EBCE /* HomeViewController.swift */,
 				CDBE343B265676AC0003EBCE /* ImageAnalizerViewController.swift */,
+				CDC1F81626569B6F001BAA69 /* ImagePicker.swift */,
 				CDB828DB2637E3B300F0A0CF /* Supporting Files */,
 				CDB828B62637E37C00F0A0CF /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				CDB828AD2637E37B00F0A0CF /* TextAnalizerViewController.swift in Sources */,
 				CDB828A92637E37B00F0A0CF /* AppDelegate.swift in Sources */,
 				CDB828AB2637E37B00F0A0CF /* SceneDelegate.swift in Sources */,
+				CDC1F81726569B6F001BAA69 /* ImagePicker.swift in Sources */,
 				CDBE343C265676AC0003EBCE /* ImageAnalizerViewController.swift in Sources */,
 				CDB828EE2637EA1600F0A0CF /* Benford.swift in Sources */,
 				CDBE343E265677830003EBCE /* HomeViewController.swift in Sources */,
